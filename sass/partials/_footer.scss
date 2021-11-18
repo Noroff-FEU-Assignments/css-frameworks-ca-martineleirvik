@@ -1,9 +1,7 @@
 footer {
     flex-shrink: 0;
+    background-color: $white;
+    margin-top: 60px;
+    padding-left: 50px;
     
-}
-
-.footer-icons {
-    display: flex;
-    justify-content: space-evenly;
 }

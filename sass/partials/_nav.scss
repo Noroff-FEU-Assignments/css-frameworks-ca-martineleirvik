@@ -1,12 +1,20 @@
-nav {
-    background: $nav-color;
+.navbar {
+    background: $background;
+    padding: 10px 40px;
 }
 
 .navbar-brand {
-    color: $primary;
-    
+    font-family: $font-primary;
+    font-style: italic;
+    font-weight: bold;
+  
 }
 
-.nav link {
-    color: $dark-color;
+.nav-link {
+    color: $white;
 }
+
+a.active {
+    background-color: $white;
+}
+

@@ -1,0 +1,29 @@
+.col-md .btn {
+    background-color: $grey-color;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+#flexCheckDefault {
+    background-color: $primary-color;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.form-label {
+    border: none;
+} 
+
+#addon-wrapping {
+    background-color: $lightgrey-color;
+    color: $white;
+    
+}
+
+.mb-3 input {
+    border: none;
+}
+
+.form-check input {
+    border: none;
+}
