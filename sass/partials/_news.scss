@@ -12,9 +12,30 @@
 
 .container .btn{
     background-color: $primary-color;
-    display: flex;
-    margin: 0 auto;
-    padding: 5px 60px;
     border: none;
+    width: 100%;
     margin-bottom: 10px;
+    position: relative;
 }
+
+.container .btn::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    background-color: $grey-color;
+}
+
+.page-item .page-link{
+    margin-left: 50px;
+    padding: 9px 16px;
+    border: 1px solid $primary-color;
+    color: $primary-color
+
+}
+
+
+
