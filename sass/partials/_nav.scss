@@ -1,9 +1,12 @@
-
-
 nav {
     background: $nav-color;
 }
 
 .navbar-brand {
-    color: $pink-color;
+    color: $primary;
+    
+}
+
+.nav link {
+    color: $dark-color;
 }

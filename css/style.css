@@ -7022,13 +7022,13 @@ fieldset:disabled .btn {
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
   width: 30px;
-  height: 3px;
+  height: 30px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #E92569;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
@@ -7355,7 +7355,7 @@ html, body {
 }
 
 body {
-  background-color: #e4cb9e;
+  background-color: #EFEFEF;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,3 +1,9 @@
 footer {
     flex-shrink: 0;
+    
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-evenly;
 }
