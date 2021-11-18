@@ -10,9 +10,11 @@
     border-radius: 10px 10px 0 0;
 }
 
-.btn .btn-primary {
+.container .btn{
     background-color: $primary-color;
     display: flex;
     margin: 0 auto;
     padding: 5px 60px;
+    border: none;
+    margin-bottom: 10px;
 }

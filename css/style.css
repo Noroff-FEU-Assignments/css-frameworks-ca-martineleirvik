@@ -56,6 +56,11 @@ footer {
   background-color: #ffffff;
   margin-top: 60px;
   padding-left: 50px;
+  color: #767676;
+}
+
+.footer-icons {
+  font-size: 2rem;
 }
 
 .card {
@@ -71,13 +76,15 @@ footer {
   border-radius: 10px 10px 0 0;
 }
 
-.btn .btn-primary {
+.container .btn {
   background-color: #E92569;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   padding: 5px 60px;
+  border: none;
+  margin-bottom: 10px;
 }
 
 .col-md .btn {
