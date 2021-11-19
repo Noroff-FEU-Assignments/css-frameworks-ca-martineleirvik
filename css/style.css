@@ -33,24 +33,26 @@ h1 {
 
 p {
   color: #767676;
+  font-family: "Lato", sans-serif;
 }
 
-.navbar {
-  background: #EFEFEF;
-  padding: 10px 40px;
+nav {
+  background-color: #EFEFEF;
+  padding: 10px 50px;
 }
 
 .navbar-brand {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-weight: bold;
+  color: #E92569;
 }
 
-.nav-link {
-  color: #ffffff;
+.btn .btn-outline-success {
+  background-color: #E92569;
 }
 
-a.active {
+.nav-link, .active {
   background-color: #ffffff;
 }
 
@@ -107,10 +109,14 @@ footer i {
 }
 
 .page-item .page-link {
-  margin-left: 50px;
   padding: 9px 16px;
   border: 1px solid #E92569;
   color: #E92569;
+}
+
+.page-item.active .page-link {
+  background-color: #E92569;
+  border: 1px solid #E92569;
 }
 
 .col-md .btn {
@@ -125,8 +131,9 @@ footer i {
   margin-right: 10px;
 }
 
-.form-label {
+.form-label, .form-check-label {
   border: none;
+  color: #767676;
 }
 
 #addon-wrapping {
@@ -140,5 +147,39 @@ footer i {
 
 .form-check input {
   border: none;
+}
+
+.list1, .list2, .list3 {
+  color: #767676;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 60px;
+}
+
+.list1 i, .list2 i, .list3 i {
+  margin-right: 25px;
+  font-size: 1.4rem;
+}
+
+.list3-mini p {
+  padding-left: 5px;
+  margin: 0;
+}
+
+.tabs-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tabs-icons i, p {
+  margin: 0 8px;
+}
+
+.tab-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

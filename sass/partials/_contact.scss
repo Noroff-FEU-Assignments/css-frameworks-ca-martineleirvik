@@ -10,14 +10,14 @@
     margin-right: 10px;
 }
 
-.form-label {
+.form-label, .form-check-label {
     border: none;
+    color: $grey-color;
 } 
 
 #addon-wrapping {
     background-color: $lightgrey-color;
     color: $white;
-    
 }
 
 .mb-3 input {
@@ -26,4 +26,25 @@
 
 .form-check input {
     border: none;
+}
+
+.list1, .list2, .list3 {
+    color: $grey-color;
+    display: flex;
+    margin-left: 60px;
+}
+
+.list1 i, .list2 i, .list3 i {
+    margin-right: 25px;
+    font-size: 1.4rem;
+}
+
+.list3-mini p{
+    padding-left: 5px;
+    margin: 0;
+}
+
+
+@media (screen) {
+    
 }

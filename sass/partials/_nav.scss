@@ -1,20 +1,22 @@
-.navbar {
-    background: $background;
-    padding: 10px 40px;
+nav {
+    background-color: $background;
+    padding: 10px 50px;
 }
 
 .navbar-brand {
+
     font-family: $font-primary;
     font-style: italic;
     font-weight: bold;
+    color: $primary-color;
   
 }
 
-.nav-link {
-    color: $white;
+.btn .btn-outline-success {
+    background-color: $primary-color;
 }
 
-a.active {
+
+.nav-link, .active {
     background-color: $white;
 }
-
