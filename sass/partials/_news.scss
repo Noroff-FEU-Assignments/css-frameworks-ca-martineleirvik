@@ -10,11 +10,6 @@
     border-radius: 10px 10px 0 0;
 }
 
-.container {
-    
-
-}
-
 .container .btn{
     background-color: $primary-color;
     border: none;
@@ -46,5 +41,11 @@
     border: 1px solid $primary-color;
 }
 
+.card-text {
+    color: $grey-color;
+    margin-bottom: 20px;
+}
 
-
+.card-title {
+    color: $dark-color;
+}

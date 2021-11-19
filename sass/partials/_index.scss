@@ -1,11 +1,54 @@
+.home-p {
+    margin: 0 50px 50px 50px;
+}
+
+.tab-container {
+    margin: 50px;
+}
+
 .tabs-icons {
     display: flex;
+    margin-top: 30px;
 }
 
 .tabs-icons i,p {
     margin: 0 8px;
+    color: $dark-color;
 }
 
 .tab-flex {
     display: flex;
+    padding: 30px;
 }
+
+#tx, .tab-container .nav-link.active {
+    color: $grey-color;
+}
+
+.tab-col {
+    margin-left: 30px;
+}
+
+.tab-flex img {
+    max-width: 30%;
+}
+
+.tab-container .nav-link {
+    color: $primary-color;
+    margin-bottom: -3px;
+    
+}
+
+.tab-pane {
+    border-radius: 0 10px;
+    border: 1px solid #D1D1D1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.tab-container .nav-link.active {
+    border: 1px solid #D1D1D1;
+    border-bottom: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+

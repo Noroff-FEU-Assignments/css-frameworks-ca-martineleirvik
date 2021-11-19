@@ -119,6 +119,15 @@ footer i {
   border: 1px solid #E92569;
 }
 
+.card-text {
+  color: #767676;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  color: #0A0A0A;
+}
+
 .col-md .btn {
   background-color: #767676;
   padding: 10px 0;
@@ -154,7 +163,7 @@ footer i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 60px;
+  margin: 20px 0 0 60px;
 }
 
 .list1 i, .list2 i, .list3 i {
@@ -164,22 +173,63 @@ footer i {
 
 .list3-mini p {
   padding-left: 5px;
-  margin: 0;
+}
+
+.home-p {
+  margin: 0 50px 50px 50px;
+}
+
+.tab-container {
+  margin: 50px;
 }
 
 .tabs-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 30px;
 }
 
 .tabs-icons i, p {
   margin: 0 8px;
+  color: #0A0A0A;
 }
 
 .tab-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 30px;
+}
+
+#tx, .tab-container .nav-link.active {
+  color: #767676;
+}
+
+.tab-col {
+  margin-left: 30px;
+}
+
+.tab-flex img {
+  max-width: 30%;
+}
+
+.tab-container .nav-link {
+  color: #E92569;
+  margin-bottom: -3px;
+}
+
+.tab-pane {
+  border-radius: 0 10px;
+  border: 1px solid #D1D1D1;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.tab-container .nav-link.active {
+  border: 1px solid #D1D1D1;
+  border-bottom: none;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -31,7 +31,7 @@
 .list1, .list2, .list3 {
     color: $grey-color;
     display: flex;
-    margin-left: 60px;
+    margin: 20px 0 0 60px;
 }
 
 .list1 i, .list2 i, .list3 i {
@@ -40,8 +40,8 @@
 }
 
 .list3-mini p{
+    
     padding-left: 5px;
-    margin: 0;
 }
 
 
