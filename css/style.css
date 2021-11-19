@@ -56,6 +56,19 @@ nav {
   background-color: #ffffff;
 }
 
+.form-control.me-2 {
+  border: none;
+  color: #0A0A0A;
+}
+
+.d-flex .btn {
+  background-color: #E92569;
+  color: #ffffff;
+  border: 1px solid #E92569;
+  margin-left: -15px;
+  border-radius: 0 5px 5px 0px;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,7 +233,7 @@ footer i {
 }
 
 .tab-pane {
-  border-radius: 0 10px;
+  border-radius: 0 10px 10px 10px;
   border: 1px solid #D1D1D1;
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
           box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
