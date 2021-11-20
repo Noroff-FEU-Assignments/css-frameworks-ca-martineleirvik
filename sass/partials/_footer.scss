@@ -15,10 +15,26 @@ footer i {
     margin: 0 8px;
 }
 
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row.center {
+    margin:  0 auto;
+}
+
 
 @media (max-width: 991px) {
     
     footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+
         
     }
     
