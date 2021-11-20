@@ -23,6 +23,7 @@
 
 #tx, .tab-container .nav-link.active {
     color: $grey-color;
+    background-color: $white;
 }
 
 .tab-col {
@@ -41,6 +42,7 @@
 
 .tab-pane {
     border-radius: 0 10px 10px 10px;
+    background-color: $white;
     border: 1px solid #D1D1D1;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -49,6 +51,18 @@
     border: 1px solid #D1D1D1;
     border-bottom: none;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 25px;
+    height: 25px;
+    margin: 0 7px;
+    background-color: $white;
+    opacity: 1;
+}
+
+.carousel-indicators button.active {
+    background-color: $primary-color;
 }
 
 

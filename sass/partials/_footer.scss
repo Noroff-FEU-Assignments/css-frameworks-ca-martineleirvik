@@ -9,23 +9,17 @@ footer {
     
 }
 
+
 footer i {
     font-size: 2rem;
     margin: 0 8px;
 }
 
 
-@media only screen and (max-width: 500px) {
-    footer{
-        
+@media (max-width: 991px) {
     
-    }
-    
-    footer i {
+    footer {
         
-
     }
-
-
     
 }

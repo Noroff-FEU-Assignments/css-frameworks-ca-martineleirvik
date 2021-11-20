@@ -8,6 +8,7 @@ nav {
     font-style: italic;
     font-weight: bold;
     color: $primary-color;
+    margin-left: -10px;
 }
 
 .container-fluid .navbar-brand:hover {
@@ -30,6 +31,8 @@ nav {
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: $dark-color;
+    background-color: $white;
+    border-radius: 3px;
 }
 
 .collapse .nav-link {
@@ -49,6 +52,10 @@ nav {
     border: 1px solid $primary-color;
     margin-left: -15px;
     border-radius: 0 5px 5px 0px;
+}
+
+.navbar-toggler {
+    border: none;
 }
 
 

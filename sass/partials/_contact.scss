@@ -44,7 +44,18 @@
     padding-left: 5px;
 }
 
+.form-check {
+    display: flex;
+}
 
-@media (screen) {
+
+@media (max-width: 991px) {
+
+    
+
+    .list1, .list2, .list3, .mb-3, .form-check, .d-grid {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
     
 }
