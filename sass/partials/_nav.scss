@@ -3,22 +3,39 @@ nav {
     padding: 10px 50px;
 }
 
-.navbar-brand {
-
+.container-fluid .navbar-brand {
     font-family: $font-primary;
     font-style: italic;
     font-weight: bold;
     color: $primary-color;
-  
+}
+
+.container-fluid .navbar-brand:hover {
+    color: $primary-color;
 }
 
 .btn .btn-outline-success {
     background-color: $primary-color;
 }
 
-
-.nav-link, .active {
+.collapse .nav-link.active {
     background-color: $white;
+    border-radius: 3px;
+
+} 
+
+.navbar-light .navbar-nav .nav-link {
+    color: $dark-color;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: $dark-color;
+}
+
+.collapse .nav-link {
+    font-family: $font-secondary;
+    color: $dark-color;
+    
 }
 
 .form-control.me-2 {

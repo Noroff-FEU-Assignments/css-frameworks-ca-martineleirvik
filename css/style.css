@@ -41,10 +41,14 @@ nav {
   padding: 10px 50px;
 }
 
-.navbar-brand {
+.container-fluid .navbar-brand {
   font-family: "Playfair Display", serif;
   font-style: italic;
   font-weight: bold;
+  color: #E92569;
+}
+
+.container-fluid .navbar-brand:hover {
   color: #E92569;
 }
 
@@ -52,8 +56,22 @@ nav {
   background-color: #E92569;
 }
 
-.nav-link, .active {
+.collapse .nav-link.active {
   background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #0A0A0A;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: #0A0A0A;
+}
+
+.collapse .nav-link {
+  font-family: "Lato", sans-serif;
+  color: #0A0A0A;
 }
 
 .form-control.me-2 {
