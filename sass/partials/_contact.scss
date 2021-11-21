@@ -32,6 +32,7 @@
     color: $grey-color;
     display: flex;
     margin: 20px 0 0 60px;
+    font-family: $font-secondary;
 }
 
 .list1 i, .list2 i, .list3 i {
@@ -40,12 +41,16 @@
 }
 
 .list3-mini p{
-    
     padding-left: 5px;
 }
 
 .form-check {
     display: flex;
+    font-family: $font-secondary;
+}
+
+.mb-3, .d-grid {
+    font-family: $font-secondary;
 }
 
 
@@ -58,4 +63,8 @@
         margin-right: 30px;
     }
     
+
+    .list3 {
+        margin-bottom: 20px;
+    }
 }

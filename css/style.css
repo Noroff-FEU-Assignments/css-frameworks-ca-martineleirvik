@@ -80,6 +80,7 @@ nav {
 .form-control.me-2 {
   border: none;
   color: #0A0A0A;
+  font-family: "Lato", sans-serif;
 }
 
 .d-flex .btn {
@@ -88,6 +89,7 @@ nav {
   border: 1px solid #E92569;
   margin-left: -15px;
   border-radius: 0 5px 5px 0px;
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-toggler {
@@ -107,41 +109,12 @@ footer {
   margin-top: 60px;
   padding: 10px 50px;
   color: #767676;
+  font-family: "Lato", sans-serif;
 }
 
 footer i {
   font-size: 2rem;
   margin: 0 8px;
-}
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.row.center {
-  margin: 0 auto;
-}
-
-@media (max-width: 991px) {
-  footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 .card {
@@ -196,6 +169,10 @@ footer i {
   color: #0A0A0A;
 }
 
+.plagination, .card-body {
+  font-family: "Lato", sans-serif;
+}
+
 @media (max-width: 991px) {
   .card {
     margin: 30px;
@@ -238,6 +215,7 @@ footer i {
   display: -ms-flexbox;
   display: flex;
   margin: 20px 0 0 60px;
+  font-family: "Lato", sans-serif;
 }
 
 .list1 i, .list2 i, .list3 i {
@@ -253,12 +231,20 @@ footer i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+.mb-3, .d-grid {
+  font-family: "Lato", sans-serif;
 }
 
 @media (max-width: 991px) {
   .list1, .list2, .list3, .mb-3, .form-check, .d-grid {
     margin-left: 30px;
     margin-right: 30px;
+  }
+  .list3 {
+    margin-bottom: 20px;
   }
 }
 
@@ -275,6 +261,7 @@ footer i {
   display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
+  font-family: "Lato", sans-serif;
 }
 
 .tabs-icons i, p {
@@ -332,5 +319,39 @@ footer i {
 
 .carousel-indicators button.active {
   background-color: #E92569;
+}
+
+.accordion {
+  margin: 0 30px;
+  border-radius: 30px;
+  font-family: "Lato", sans-serif;
+}
+
+.accordion-item button {
+  color: #E92569;
+}
+
+.accordion-collapse, .accordion-body {
+  background-image: radial-gradient(circle at center, #ffffff, #F5F5F5);
+}
+
+.accordion-button:focus, .accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  color: #E92569;
+}
+
+.accordion-body img {
+  max-width: 90%;
+  display: block;
+  margin: 20px auto;
+}
+
+#tx-v, .home-p p {
+  color: #767676;
+  font: "Lato", sans-serif;
+}
+
+.accordion-body {
+  border-top: 1px solid #E92569;
 }
 /*# sourceMappingURL=style.css.map */

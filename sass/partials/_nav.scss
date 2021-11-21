@@ -44,6 +44,7 @@ nav {
 .form-control.me-2 {
     border: none;
     color: $dark-color;
+    font-family: $font-secondary;
 }
 
 .d-flex .btn {
@@ -52,6 +53,7 @@ nav {
     border: 1px solid $primary-color;
     margin-left: -15px;
     border-radius: 0 5px 5px 0px;
+    font-family: $font-secondary;
 }
 
 .navbar-toggler {

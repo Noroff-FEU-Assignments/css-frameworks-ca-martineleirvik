@@ -50,14 +50,14 @@
     color: $dark-color;
 }
 
+.plagination, .card-body {
+    font-family: $font-secondary;
+}
+
 @media (max-width: 991px) {
 
 .card {
     margin: 30px;
-}
-
-.page-item .page-link {
-    
 }
 
 

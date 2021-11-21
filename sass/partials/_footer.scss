@@ -6,36 +6,10 @@ footer {
     margin-top: 60px;
     padding: 10px 50px;
     color: $grey-color;
-    
+    font-family: $font-secondary;
 }
-
 
 footer i {
     font-size: 2rem;
     margin: 0 8px;
-}
-
-.row {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.row.center {
-    margin:  0 auto;
-}
-
-
-@media (max-width: 991px) {
-    
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .row {
-        display: flex;
-
-        
-    }
-    
 }

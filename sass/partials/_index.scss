@@ -9,6 +9,7 @@
 .tabs-icons {
     display: flex;
     margin-top: 30px;
+    font-family: $font-secondary;
 }
 
 .tabs-icons i,p {
@@ -64,5 +65,42 @@
 .carousel-indicators button.active {
     background-color: $primary-color;
 }
+
+.accordion {
+    margin: 0 30px;
+    border-radius: 30px;
+    font-family: $font-secondary;
+}
+
+.accordion-item button{
+    color: $primary-color;
+}
+
+.accordion-collapse, .accordion-body {
+    background-image: radial-gradient(circle at center,#ffffff, #F5F5F5 );
+}
+
+.accordion-button:focus, .accordion-button:not(.collapsed) {
+    background-color: $white;
+    color: $primary-color;
+}
+
+.accordion-body img {
+    max-width: 90%;
+    display: block;
+    margin: 20px auto;
+}
+
+#tx-v, .home-p p {
+    color: $grey-color;
+    font: $font-secondary;
+}
+
+.accordion-body {
+    border-top: 1px solid $primary-color;
+}
+
+
+
 
 
